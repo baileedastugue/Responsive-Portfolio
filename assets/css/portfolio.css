@@ -5,11 +5,12 @@
 }
 
 #port img {
-    width: 300px;
+    width: 250px;
+    height: 150px;
     outline: 2px solid #ffffff;
     background-color: #ffffff;
     padding: 0px;
-    margin: 0px;
+    /* margin: 0px 35%; */
 }
 
 #port .title {
@@ -18,7 +19,8 @@
     background-color: #eaac9d;
     color: #ffffff;
     padding: 10px;
-    width: 300px; 
+    /* margin: 0px 35%; */
+    width: 250px; 
     text-align: center;
 }
 
@@ -30,8 +32,11 @@
     color: gray;
 }
 
-.flex-container#portfolio__background {
-    background-color: gray;
-    /* margin: 0px 10%; */
-    padding-bottom: 3%;
+
+@media screen and (max-width: 640px) {
+    main {
+        width: 580px; 
+        margin: 0px;
+        padding: 25px 10px 60px 10px;
+    }
 }

@@ -89,7 +89,7 @@ main h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-main img {
+img#about {
     float: left;
     margin-right: 20px;
     height: 200px;
